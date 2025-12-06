@@ -44,7 +44,7 @@ Manage Students (create, view, delete)
 
 Manage Instructors (create, view, delete)
 
-Manage Courses (create, edit, delete, assign instructor)
+Manage Courses (create, edit, assign instructor)
 
 View dashboard metrics:
 
