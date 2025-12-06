@@ -43,10 +43,15 @@
 
                 <!-- PDF -->
                 <div th:if="${c.contentType.name() == 'PDF'}">
-                  <embed th:src="@{${c.contentUrl}}"
-                         type="application/pdf"
-                         width="100%" height="400px" />
+                  <h5>
+                    <a th:href="@{${c.contentUrl}}" target="_blank"
+                       class="text-decoration-none text-primary"
+                       th:text="${c.title + ' Open PDF '}">
+                    </a>
+                  </h5>
+
                 </div>
+
 
                 <!-- VIDEO -->
                 <div th:if="${c.contentType.name() == 'VIDEO'}">
